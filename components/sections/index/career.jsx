@@ -172,6 +172,8 @@ const fullStack	= [
 	{ key: 'git', 			name: 'Git', 				type: 'devicon' },
 	{ key: 'mysql', 		name: 'MySQL', 				type: 'devicon' },
 	{ key: 'mongodb', 		name: 'MongoDB', 			type: 'devicon' },
+	{ key: 'typescript', 	name: 'TypeScript', 		type: 'devicon' },
+	{ key: 'reactnative', 	name: 'React Native', 		type: 'devicon' },
 ]
 
 const stack	= [
@@ -188,4 +190,6 @@ const stack	= [
 	{ key: 'git', 			name: 'Git', 				type: 'devicon' },
 	{ key: 'mysql', 		name: 'MySQL', 				type: 'devicon' },
 	{ key: 'mongodb', 		name: 'MongoDB', 			type: 'devicon' },
+	{ key: 'typescript', 	name: 'TypeScript', 		type: 'devicon' },
+	{ key: 'react', 	name: 'React Native', 		type: 'devicon' },
 ]

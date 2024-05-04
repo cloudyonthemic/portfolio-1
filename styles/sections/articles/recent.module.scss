@@ -34,6 +34,7 @@
 	row-gap: 1rem;
 }
 
+
 .project {
 	display: flex;
 	flex-direction: column;
@@ -50,6 +51,36 @@
 		.featuredImage img {
 			filter: brightness(var(--brightness-high));
 		}	
+	}
+
+	.contact {
+		display: flex;
+		flex-direction: column; /* Change to column for better alignment */
+		gap: 1rem;
+		align-items: center; /* Center align the items */
+		margin-top: 2rem; /* Add some top margin */
+	}
+
+	.contactItem {
+		display: flex;
+		flex-direction: row;
+		gap: .5rem;
+		align-items: center;
+	}
+
+	.contactItem a {
+		text-decoration: none; /* Remove underline from links */
+		color: var(--primary-dark); /* Set link color */
+		font-size: 1rem; /* Increase font size for better readability */
+	}
+
+	.contactItem a:hover {
+		color: var(--primary); /* Change color on hover */
+	}
+
+	/* Add hover effect to icons */
+	.contactItem a:hover svg {
+		fill: var(--primary); /* Change icon color on hover */
 	}
 
 	.featuredImage {

@@ -29,12 +29,12 @@ export default function About() {
 			<Container spacing={['verticalXXXLrg']}>
 				<SectionTitle
 					title="About Me"
-					preTitle="Synopsis"
-					subTitle="With a diverse skill set that includes UX design, UI design, full stack development, operational architecture, systems design, photography, and branding, I am a well-rounded digital professional."
-				/>
+					preTitle="Ibrahim"
+					subTitle="I am a creative technologist with a passion for design and development." 
+					/>
 				<section className={about.content}>
 					<div className={about.image}>
-						<img src="/img/family-photo.jpg" alt="Nelson family photo"/>
+						<img src="/img/ibrahim_photo.jpg" alt="Ibrahim  photo"/>
 						{/* <Image src="/img/family-photo.jpg" width={600} height={800}/> */}
 					</div>
 					<div className={about.copy} >
@@ -43,16 +43,16 @@ export default function About() {
 							containerClass={about.container}
 							iconClass={about.icon}
 							icon={[ 'fat', 'ear-listen' ]}
-							copy="In addition to my design and technical expertise—I also have strong leadership, time management, and multitasking skills—honed through my experience as a business owner / managing partner, husband, and father of two. Outside of work, I enjoy staying active through sports such as hockey and snowboarding. I am confident in my ability to bring passion and value to any project."
+							copy="I am a creative technologist with a passion for design and development. I have a strong foundation in both disciplines and bring a unique perspective to every project."
 						/>
 						<BadgesBlock 
-							title="Reasearch and planning" 
+							title="Front End Development" 
 							containerClass={about.container}
 							list={methods} 
 							fullContainer="fullContainer"
 							block="methods" 
 							icon="fingerprint"
-							copy="One of my favorite aspects of creating is planning the architecture of a project. From Design Systems to Brand Strategy—I enjoy working with the many touch points of user experience."
+							copy="I have a strong foundation in front end development and am constantly learning and evolving to stay up-to-date with the latest industry trends."
 							//invertedColor="invertedColor"
 							headerIcon={`${about.icon}`}
 						/>
@@ -64,8 +64,8 @@ export default function About() {
 }
 
 const methods 	= [
-	{ key: 'planet-moon', 		name: 'User Research', 		type: 'fad' },
-	{ key: 'qrcode', 			name: 'Digital Strategy', 	type: 'fad' },
+	{ key: 'planet-moon', 		name: 'Ui Design', 		type: 'fad' },
+	{ key: 'qrcode', 			name: 'Security ', 	type: 'fad' },
 	{ key: 'window', 			name: 'Design Systems', 	type: 'fad' },
 	{ key: 'cubes', 			name: 'Product Strategy', 	type: 'far' },
 	{ key: 'layer-plus', 		name: 'Brand Strategy', 	type: 'fad' },

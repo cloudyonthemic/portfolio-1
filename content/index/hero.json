@@ -1,6 +1,6 @@
 {
 	"intro": {
-		"start": "const Andrew = ( name, passion ) =>",
+		"start": "const Ibrahim = ( name, passion ) =>",
 		"end": "Hello, my name is",
 		"speed": 60,
 		"deletionSpeed": 80,
@@ -11,21 +11,21 @@
 	},
 
 	"header": {
-		"name": "Andrew Nelson.",
-		"usp": "I design and build meaningful experiences."
+		"name": "Ibrahim Haseeb.",
+		"usp": "I make visual stories and digital experiences."
 	},
 
-	"paragraph": "I am a digital polymath — a constantly evolving digital creator driven by a passion for lifelong learning and the desire to leave a lasting impact.",
+	"paragraph": "I'm a full-stack developer and designer from Duhok, Iraq, passionate about crafting visually stunning, functional digital experiences.",
 
 	"buttons": {
 		"primary": {
 			"title": "Contact Me",
-			"url": "",
+			"url": "mailto:ibrahimrhaseeb@gmail.com",
 			"leaveSite": false
 		},
 		"secondary": {
 			"title": "LinkedIn",
-			"url": "",
+			"url": "https://www.linkedin.com/in/ibrahim-haseeb-3a378a1b4/",
 			"leaveSite": "true"
 		}
 	}

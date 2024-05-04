@@ -17,41 +17,47 @@ export default function Recent({ mediumArticles }) {
 		<Section classProp="borderBottom">
 			<Container spacing={'verticalXXXXLrg'}>
 				<SectionTitle
-					title="Recent Articles"
-					preTitle="Informative"
-					subTitle="A personal quest to become a better creative writer."
+					title="Contact Me"
+					preTitle="You can reach me here"
+					subTitle="I am always open to new opportunities and collaborations. Feel free to reach out to me."
 				/>
 				<section className={css.projects}>
-					{
-					articles.map( ({ title, pubDate, link, author, thumbnail, categories }, index) => {
-						const date = new Date(pubDate).toDateString()
-						return (
-							<>
-							<article key={index} className={css.project}>
-								<span className={css.featuredImage}>
-									<img src={thumbnail} alt="Article thumbnail" />
-								</span>
-								<span className={css.header}>
-									<a href={link} rel="noreferrer" target="_blank">{title} <Icon icon={[ 'fad', 'arrow-up-right-from-square' ]} /></a>
-								</span>
-								<span className={css.descriptionContainer}>
-								</span>
-								<span className={css.details}>
-									<p>By {author}</p>
-									<p className={css.pushedAt}>{date}</p>
-								</span>
-								<span className={css.topicsContainer}>
-									{
-									categories.map( (e, index) => {
-										return ( <span key={index} className={css.topics}><Icon icon={[ 'fab', 'medium' ]} /> {e}</span> )
-									})
-									}
-								</span>
-							</article>
-							</>
-						)
-					})
-					}
+					{/* React out to me section */}
+					<div className={css.contact}>
+						<div className={css.contactInfo} style={{
+							// Center the contact info
+							display: 'flex',
+							flexDirection: 'row',
+							justifyContent: 'center',
+							alignItems: 'center',
+							gap: '2rem'
+						}}>
+							<div className={css.contactItem}>
+								<Icon icon={['fad', 'envelope-open-text']} />
+								<p>
+									<a href="mailto:
+
+									">Email Me</a>
+								</p>
+							</div>
+							<div className={css.contactItem}>
+								<Icon icon={['fad', 'phone-alt']} />
+								<p>
+									<a href="tel:
+
+									">Call Me</a>
+								</p>
+							</div>
+							<div className={css.contactItem}>
+								<Icon icon={['fad', 'map-marker-alt']} />
+								<p>
+									<a href="https://goo.gl/maps/
+
+									" target="_blank" rel="noreferrer">Find Me</a>
+								</p>
+							</div>
+						</div>
+					</div>
 				</section>
 			</Container>
 		</Section>
