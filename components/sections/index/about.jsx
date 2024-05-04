@@ -34,7 +34,7 @@ export default function About() {
 					/>
 				<section className={about.content}>
 					<div className={about.image}>
-						<img src="/img/ibrahim_photo.jpg" alt="Ibrahim  photo"/>
+						<img src="/img/ibrahim_photo.jpg" alt="Ibrahim  photo" width={600} height={800}/>
 						{/* <Image src="/img/family-photo.jpg" width={600} height={800}/> */}
 					</div>
 					<div className={about.copy} >
@@ -64,10 +64,8 @@ export default function About() {
 }
 
 const methods 	= [
-	{ key: 'planet-moon', 		name: 'Ui Design', 		type: 'fad' },
+	{ key: 'planet-moon', 		name: 'UI Design', 		type: 'fad' },
 	{ key: 'qrcode', 			name: 'Security ', 	type: 'fad' },
 	{ key: 'window', 			name: 'Design Systems', 	type: 'fad' },
-	{ key: 'cubes', 			name: 'Product Strategy', 	type: 'far' },
-	{ key: 'layer-plus', 		name: 'Brand Strategy', 	type: 'fad' },
-	{ key: 'solar-system', 		name: 'Operations', 		type: 'fad' },
+	{ key: 'layer-plus', 		name: 'Visual Identity', 	type: 'fad' },
 ]
